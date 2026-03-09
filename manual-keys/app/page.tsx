@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/logo.png"; // Adjust the path as necessary
 import React from 'react';
 
 export default function Home() {
@@ -29,6 +28,9 @@ export default function Home() {
         </ul>
       </nav>
       <main className="flex flex-col items-center justify-center min-h-screen bg-black text-white">
+        <div className="mb-8 w-48 h-48">
+          <img src="/logo.svg" alt="Manual Keys Logo" className="w-full h-full" />
+        </div>
         <h1 className="text-5xl font-bold mb-8">Manual Keys</h1>
 
         <p className="text-lg mb-10 text-gray-300">
